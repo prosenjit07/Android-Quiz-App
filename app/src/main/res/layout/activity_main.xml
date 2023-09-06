@@ -5,7 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#3BA2AF"
     tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Quiz App"
+        android:textStyle="bold"
+       android:layout_gravity="center"
+        android:textColor="#FF5722"
+        android:textSize="45sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,12 +23,13 @@
         android:layout_marginLeft="10dp"
         android:text="1. if a=5,b=6,\nc=3 then x=a*b/a+c?"
         android:textColor="#BD2458"
-        android:textSize="45sp" />
+        android:textSize="40sp" />
 
     <RadioGroup
         android:id="@+id/radioGroupID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#AA000000"
         android:layout_marginTop="65sp">
 
         <RadioButton

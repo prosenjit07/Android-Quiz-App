@@ -17,6 +17,6 @@ public class MainActivity3 extends AppCompatActivity {
         Intent myGetIntent = getIntent();
         int result = myGetIntent.getIntExtra(MainActivity.userMarks, 0);
         outputViewObj = findViewById(R.id.outputViewID);
-        outputViewObj.setText("Your marks is " + result);
+        outputViewObj.setText("Your marks is " + result+" out of 10");
     }
 }
